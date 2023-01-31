@@ -1,6 +1,3 @@
-# 100DaysOfCode
-Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!
-
 <hr>
 <h2 align="center">🔥 Languages & Frameworks & Tools & Abilities 🔥</h2>
 <br>
@@ -20,9 +17,9 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
   <code><img title="MySQL" height="25" src="https://user-images.githubusercontent.com/26462639/200928601-76a7e37f-1225-47f9-8a8f-c7c7d946481f.png"></code>
 </p>
 <hr>
-<h2 align="center">📙 Libft 📙</h2>
+<h2 align="center">📙 100 DaysOfCode 📙</h2>
 
-42 Projects bibliothèque personnel
+Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!
 
 <h2 align="center">👨‍💻 0-100 Days 👨‍💻</h2>
 
