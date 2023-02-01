@@ -32,3 +32,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 1 - Band name generator
 - [x] Day 2 - Tip calculator
 - [x] Day 3 - Treasure island
+- [x] Day 4 - Rock paper scissors
