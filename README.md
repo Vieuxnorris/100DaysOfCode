@@ -27,7 +27,7 @@
 
 Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!
 
-<h2 align="center">👨‍💻 0-100 Days 👨‍💻</h2>
+<h2 align="center">👨‍💻 1-100 Days 👨‍💻</h2>
 
 - [x] Day 1 - Band name generator
 - [x] Day 2 - Tip calculator
