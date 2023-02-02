@@ -35,3 +35,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 4 - Rock paper scissors
 - [x] Day 5 - Password generator
 - [x] Day 6 - Maze
+- [x] Day 7 - Hangman
