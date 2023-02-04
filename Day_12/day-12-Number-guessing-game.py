@@ -52,6 +52,6 @@ def game(lives):
 goodAnswer = game(lives=lives)
 
 if goodAnswer == True:
-    print("You got it! The answer was {RANDOM_NUMBER}")
+    print(f"You got it! The answer was {RANDOM_NUMBER}")
 else:
     print("You've run out of guesses, you lose.")
