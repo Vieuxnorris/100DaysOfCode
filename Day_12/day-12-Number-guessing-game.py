@@ -4,27 +4,14 @@ import random
 
 # global
 RANDOM_NUMBER = random.randint(1,100)
+EASY_MODE = 10
+HARD_MODE = 5
 
 # variables
 lives = 0
 goodAnswer = False
 
-# logo and early code
-clear()
-print(logo)
-
-print("Welcome to the Number Guessing Game!")
-print("I'm thinking of a number between 1 and 100.")
-
-print(f"Pssst, the correct answer is {RANDOM_NUMBER}")
-
-difficulty = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
-if "easy" in difficulty:
-    lives = 10
-else:
-    lives = 5
-
-# fonction
+# fonctions
 def checkAnswer(answer):
     if answer > RANDOM_NUMBER:
         print("Too high.")
@@ -35,7 +22,7 @@ def checkAnswer(answer):
     else:
         return True
 
-def game(lives):
+def checkLive(lives):
     while lives > 0:
         print(f"You have {lives} attempts remaining to guess the number.")
         answerUser = int(input("Make a guess: "))
@@ -48,10 +35,29 @@ def game(lives):
             return True
     return False
 
-# Game
-goodAnswer = game(lives=lives)
+def game():
+    clear()
+    print(logo)
 
-if goodAnswer == True:
-    print(f"You got it! The answer was {RANDOM_NUMBER}")
-else:
-    print("You've run out of guesses, you lose.")
+    print("Welcome to the Number Guessing Game!")
+    print("I'm thinking of a number between 1 and 100.")
+
+    print(f"Pssst, the correct answer is {RANDOM_NUMBER}")
+
+    lives = setDifficulty()
+    goodAnswer = checkLive(lives=lives)
+
+    if goodAnswer == True:
+        print(f"You got it! The answer was {RANDOM_NUMBER}")
+    else:
+        print("You've run out of guesses, you lose.")
+
+def setDifficulty():
+    difficulty = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
+    if "easy" in difficulty:
+        return EASY_MODE
+    else:
+        return HARD_MODE
+
+# Game
+game()
