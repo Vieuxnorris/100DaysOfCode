@@ -64,10 +64,7 @@ def anotherCard(player):
     if newCard == 11:
         newCard = 1
     player['card'].append(newCard)
-    total = 0
-    for n in range(len(player['card'])):
-        total += player['card'][n]
-    player['total'] = total
+    player['total'] = sum(player['card'])
 
 
 # Variables
