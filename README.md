@@ -39,3 +39,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 8 - Ceasar cipher
 - [x] Day 9 - Blind auction
 - [x] Day 10 - Calculator
+- [x] Day 11 [Capstone] - Blackjack
