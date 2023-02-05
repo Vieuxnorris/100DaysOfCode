@@ -42,3 +42,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 11 - Blackjack <-- [Capstone]
 - [x] Day 12 - Number guessing game
 - [x] Day 13 - Debugging <-- [Resolution]
+- [x] Day 14 - Higher lower
