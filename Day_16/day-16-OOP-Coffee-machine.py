@@ -18,9 +18,8 @@ def coffeeMachine():
             machineMaker.report()
             machineMoney.report()
         elif drink is not None:
-            if machineMaker.is_resource_sufficient(drink):
-                if machineMoney.make_payment(drink.cost):
-                    machineMaker.make_coffee(drink)
+            if machineMaker.is_resource_sufficient(drink) and machineMoney.make_payment(drink.cost):
+                machineMaker.make_coffee(drink)
 
 
 coffeeMachine()
