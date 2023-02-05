@@ -33,7 +33,12 @@ def displayResources():
 
 def MachineProcess(arg_userChoice):
     if checkResources(arg_userChoice=arg_userChoice):
-        coin = float(input(f"insert ${MENU[arg_userChoice]['cost']} for a {arg_userChoice}"))
+        print(f"insert ${MENU[arg_userChoice]['cost']} for a {arg_userChoice}")
+        coinQuarter = int(input("How many quarters: "))
+        coinDimes = int(input("How many dimes: "))
+        coinNickles = int(input("How many nickles: "))
+        coinPennies = int(input("How many pennies: "))
+        coin = (coinQuarter * QUARTERS) + (coinDimes * DIMES) + (coinNickles * NICKLES) + (coinPennies * PENNIES)
         if coin >= MENU[arg_userChoice]['cost']:
             if "espresso" in arg_userChoice:
                 resources['water'] -= MENU[arg_userChoice]['ingredients']['water']
