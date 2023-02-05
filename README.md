@@ -47,3 +47,5 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 14 - Higher lower
 
 <h3 align="center">✨ Intermediate ✨</h3>
+
+- [x] Day 15 - Coffee machine
