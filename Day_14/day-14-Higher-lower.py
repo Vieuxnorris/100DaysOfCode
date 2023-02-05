@@ -37,16 +37,10 @@ def displayChoices():
         return True
 
 def checkUserChoice(userChoice, followA, followB):
-    if userChoice == 'a':
-        if followA > followB:
-            return True
-        else:
-            return False
+    if followA > followB:
+        return userChoice == 'a'
     else:
-        if followB > followA:
-            return True
-        else:
-            return False
+        return userChoice == 'b'
 
 # Game
 game()
