@@ -49,3 +49,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 <h3 align="center">✨ Intermediate ✨</h3>
 
 - [x] Day 15 - Coffee machine
+- [x] Day 16 - Coffee machine OOP
