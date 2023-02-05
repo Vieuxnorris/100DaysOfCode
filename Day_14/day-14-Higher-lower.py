@@ -6,16 +6,18 @@ import random
 # Global
 SCORE = 0
 
+
 # Functions
 def game():
     endGame = False
-    while endGame != True:
+    while not endGame:
         clear()
         print(logo)
         endGame = displayChoices()
     clear()
     print(logo)
     print(f"Sorry, that's wrong. Final score: {SCORE}")
+
 
 def displayChoices():
     global SCORE
@@ -36,11 +38,13 @@ def displayChoices():
     else:
         return True
 
-def checkUserChoice(userChoice, followA, followB):
-    if followA > followB:
-        return userChoice == 'a'
+
+def checkUserChoice(arg_userChoice, arg_followA, arg_followB):
+    if arg_followA > arg_followB:
+        return arg_userChoice == 'a'
     else:
-        return userChoice == 'b'
+        return arg_userChoice == 'b'
+
 
 # Game
 game()
