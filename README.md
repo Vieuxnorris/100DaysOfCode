@@ -29,6 +29,8 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 
 <h2 align="center">👨‍💻 1-100 Days 👨‍💻</h2>
 
+<h3 align="center">✨ Debutants ✨</h3>
+
 - [x] Day 1 - Band name generator
 - [x] Day 2 - Tip calculator
 - [x] Day 3 - Treasure island
@@ -43,3 +45,5 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 12 - Number guessing game
 - [x] Day 13 - Debugging <-- [Resolution]
 - [x] Day 14 - Higher lower
+
+<h3 align="center">✨ Intermediate ✨</h3>
