@@ -12,11 +12,11 @@ def moveBackward():
     timmy.backward(10)
 
 
-def moveCounterClockwise():
+def moveClockwise()
     timmy.setheading(timmy.heading() + 5)
 
 
-def moveClockwise():
+def moveCounterClockwise()
     timmy.setheading(timmy.heading() - 5)
 
 
