@@ -54,3 +54,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 18 - The hirst painting
 - [x] Day 19 - Turtle race
 - [x] Day 20 - Snake game <-- [Part 1]
+- [x] Day 21 - Snake game <-- [Last Part]
