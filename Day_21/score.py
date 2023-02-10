@@ -4,6 +4,7 @@ from turtle import Turtle
 SCORE_COLOR = "white"
 SCORE_ALIGN = "center"
 SCORE_FOND = ("Arial", 20, 'normal')
+GAME_OVER_POSITION = (0, 0)
 
 
 class Score(Turtle):
@@ -18,7 +19,7 @@ class Score(Turtle):
         self.ht()
 
     def gameOver(self):
-        self.goto((0, 0))
+        self.goto(GAME_OVER_POSITION)
         self.write("GAME OVER", align=SCORE_ALIGN, font=SCORE_FOND)
 
     def update(self):
