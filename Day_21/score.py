@@ -4,6 +4,7 @@ from turtle import Turtle
 SCORE_COLOR = "white"
 SCORE_ALIGN = "center"
 SCORE_FOND = ("Arial", 20, 'normal')
+SCORE_POSITION = (0, 270)
 GAME_OVER_POSITION = (0, 0)
 
 
@@ -14,7 +15,7 @@ class Score(Turtle):
         self.score = 0
         self.color(SCORE_COLOR)
         self.penup()
-        self.goto((0, 270))
+        self.goto(SCORE_POSITION)
         self.write(f"Score = {self.score}", align=SCORE_ALIGN, font=SCORE_FOND)
         self.ht()
 
