@@ -57,3 +57,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 21 - Snake game <-- [Last Part]
 - [x] Day 22 - Pong game
 - [x] Day 23 - Turtle crossing <-- [Capstone]
+- [x] Day 24 - Mail merge
