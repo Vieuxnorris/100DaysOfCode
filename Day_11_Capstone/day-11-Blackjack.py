@@ -2,6 +2,7 @@ from art import logo
 from replit import clear
 import random
 
+
 # Fonctions
 def distribution(playerDict):
     for numberPlayer in range(2):
@@ -10,17 +11,20 @@ def distribution(playerDict):
         emptyPlayer['total'] = emptyPlayer['card'][0] + emptyPlayer['card'][1]
         playerDict.append(emptyPlayer)
 
+
 def checkBlackjack(entity):
     if entity['total'] == 21:
         entity['blackjack'] = True
     else:
         entity['blackjack'] = False
 
+
 def checkOver(entity):
     if entity['total'] > 21:
         entity['over'] = True
     else:
         entity['over'] = False
+
 
 def checkWin(player, computer, verifBlackjack):
     if computer['blackjack'] == True and len(computer['card']) < 3:
@@ -57,7 +61,8 @@ def checkWin(player, computer, verifBlackjack):
         print(f"     Your final hand: {player['card']}, final score: {player['total']}")
         print(f"     Computer final hand: {computer['card']}, final score: {computer['total']}")
         print("Draw 🙃")
-        return True              
+        return True
+
 
 def anotherCard(player):
     newCard = random.choice(cardValeurs)
@@ -68,7 +73,7 @@ def anotherCard(player):
 
 
 # Variables
-cardValeurs = [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 10 ,10, 10, 11]
+cardValeurs = [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11]
 playerDict = []
 playGame = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower()
 
@@ -102,10 +107,6 @@ while 'y' in playGame:
                     anotherCard(computer)
                     checkOver(computer)
                 endGame = checkWin(player, computer, False)
-        
-
-
-
 
     playGame = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower()
     clear()
