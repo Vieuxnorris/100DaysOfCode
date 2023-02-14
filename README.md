@@ -59,3 +59,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 23 - Turtle crossing <-- [Capstone]
 - [x] Day 24 - Mail merge
 - [x] Day 25 - U.S. states game
+- [x] Day 26 - NATO alphabet
