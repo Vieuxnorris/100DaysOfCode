@@ -61,3 +61,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 25 - U.S. states game
 - [x] Day 26 - NATO alphabet
 - [x] Day 27 - Mile to km converter <-- [First Tkinter]
+- [x] Day 28 - Pomodoro
