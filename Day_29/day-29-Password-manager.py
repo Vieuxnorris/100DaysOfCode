@@ -1,5 +1,6 @@
 import random
 from tkinter import *
+from tkinter import messagebox
 
 # Global Variables
 WIDTH_SCREEN = 500
@@ -23,12 +24,17 @@ def generator():
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def savePassword():
     if len(websiteEntry.get()) != 0 and len(emailUsernameEntry.get()) != 0 and len(passwordEntry.get()) != 0:
-        with open("save_password.txt", "a") as file:
-            file.write(f"{websiteEntry.get()} | {emailUsernameEntry.get()} | {passwordEntry.get()}\n")
-        websiteEntry.delete(0, END)
-        emailUsernameEntry.delete(0, END)
-        passwordEntry.delete(0, END)
-
+        askUser = messagebox.askokcancel(title=websiteEntry.get(), message=f"These are the details entered: "
+                                                                           f"\nEmail: {emailUsernameEntry.get()} "
+                                                                           f"\nPassword: {passwordEntry.get()} "
+                                                                           f"\nIs it ok to save?")
+        if askUser:
+            with open("save_password.txt", "a") as file:
+                file.write(f"{websiteEntry.get()} | {emailUsernameEntry.get()} | {passwordEntry.get()}\n")
+                websiteEntry.delete(0, END)
+                passwordEntry.delete(0, END)
+    else:
+        messagebox.showinfo(title="Oops", message="Please make sure you haven't left any fields empty.")
 
 # ---------------------------- UI SETUP ------------------------------- #
 
