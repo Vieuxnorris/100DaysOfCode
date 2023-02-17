@@ -1,6 +1,7 @@
 import random
 from tkinter import *
 from tkinter import messagebox
+import pyperclip
 
 # Global Variables
 WIDTH_SCREEN = 500
@@ -18,7 +19,9 @@ def generator():
                      [chr(maj) for maj in range(65, 90)]
     random.shuffle(randomPassword)
     passwordEntry.delete(0, END)
-    passwordEntry.insert(END, "".join(letter for letter in randomPassword[0:MAX_LONG_PASSWORD]))
+    password = "".join(letter for letter in randomPassword[0:MAX_LONG_PASSWORD])
+    passwordEntry.insert(END, password)
+    pyperclip.copy(password)
 
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
@@ -35,6 +38,7 @@ def savePassword():
                 passwordEntry.delete(0, END)
     else:
         messagebox.showinfo(title="Oops", message="Please make sure you haven't left any fields empty.")
+
 
 # ---------------------------- UI SETUP ------------------------------- #
 
