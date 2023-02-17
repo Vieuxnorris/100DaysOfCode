@@ -18,7 +18,8 @@ TIMER = None
 
 def resetTimer():
     global RESP, TIMER
-    window.after_cancel(TIMER)
+    if TIMER is not None:
+        window.after_cancel(TIMER)
     checkBreak.config(text="")
     RESP = 0
     labelTimer.config(text="Timer")
@@ -30,9 +31,9 @@ def timerMechanism():
     global RESP
     RESP += 1
 
-    workSec = WORK_MIN * 60
-    shortBreakSec = SHORT_BREAK_MIN * 60
-    longBreakMin = LONG_BREAK_MIN * 60
+    workSec = 10
+    shortBreakSec = 2
+    longBreakMin = 5
 
     if RESP % 8 == 0:
         countDown(longBreakMin)
