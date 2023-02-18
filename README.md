@@ -63,3 +63,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 27 - Mile to km converter <-- [First Tkinter]
 - [x] Day 28 - Pomodoro
 - [x] Day 29 - Password manager
+- [x] Day 30 - Password maanger optimization
