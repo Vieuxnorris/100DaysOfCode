@@ -44,18 +44,18 @@ def timerSwitch():
     canvas.itemconfig(titleCanvas, text="English")
     canvas.itemconfig(wordCanvas, text=WORD_DICO['English'])
     canvas.itemconfig(imageCanvas, image=cardFrontImage)
-    englishWord(COUNT, WORD_DICO)
+    englishWord(COUNT)
 
 
 # ---------------------------- ENGLISH WORD ------------------------------- #
-def englishWord(count, translateList):
+def englishWord(count):
     global TIMER
     if count > 0:
-        TIMER = window.after(1000, englishWord, count - 1, translateList)
+        TIMER = window.after(1000, englishWord, count - 1)
     else:
         canvas.itemconfig(imageCanvas, image=cardBackImage)
         canvas.itemconfig(titleCanvas, text="French")
-        canvas.itemconfig(wordCanvas, text=translateList["French"])
+        canvas.itemconfig(wordCanvas, text=WORD_DICO["French"])
         if TIMER is not None:
             window.after_cancel(TIMER)
 
