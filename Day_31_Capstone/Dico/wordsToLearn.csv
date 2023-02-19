@@ -6,18 +6,24 @@ of,de
 to,pour
 in,dans
 i,je
+you,toi
 it,il
 have,ont
 to,pour
+that,ce
 for,pour
 do,faire
 he,il
 with,avec
+on,sur
 this,ce
+n't,NT
 we,nous
 that,ce
 not,pas
 but,mais
+they,ils
+say,dire
 at,à
 what,quoi
 his,son
@@ -27,10 +33,12 @@ or,ou
 by,par
 get,obtenir
 she,elle
+my,mon
 can,peut
 as,comme
 know,savoir
 if,si
+me,moi
 your,ton
 all,tous
 who,OMS
@@ -48,6 +56,7 @@ there,là
 see,voir
 her,son
 as,comme
+out,dehors
 one,un
 come,venir
 people,personnes
@@ -69,12 +78,17 @@ into,dans
 here,ici
 then,alors
 than,que
+look,regarder
 way,chemin
 more,plus
 these,ces
+no,Non
 thing,chose
 well,Bien
+because,parce que
 also,aussi
+two,deux
+use,utiliser
 tell,dire
 good,bien
 first,d'abord
@@ -87,6 +101,7 @@ new,nouveau
 one,un
 us,nous
 any,n'importe quel
+those,ceux
 very,très
 her,son
 need,besoin
@@ -94,6 +109,7 @@ back,dos
 there,là
 should,devrait
 even,même
+only,seul
 many,beaucoup
 really,vraiment
 work,travail
@@ -119,6 +135,7 @@ world,monde
 in,dans
 feel,se sentir
 yeah,Ouais
+great,super
 last,dernier
 child,enfant
 oh,Oh
@@ -135,6 +152,7 @@ keep,donjon
 leave,partir
 put,mettre
 like,comme
+help,aider
 big,grand
 where,où
 same,même
@@ -181,15 +199,19 @@ few,peu
 group,groupe
 such,tel
 against,contre
+run,courir
 guy,gars
 about,à propos
 case,cas
 question,question
 work,travail
 night,nuit
+live,en direct
 game,jeu
+number,nombre
 write,écrire
 bring,apporter
+without,sans
 money,argent
 lot,parcelle
 most,la plupart
@@ -197,10 +219,14 @@ book,livre
 system,système
 government,gouvernement
 next,suivant
+city,ville
 company,entreprise
+story,histoire
 today,aujourd'hui
 job,emploi
+move,déplacer
 must,devoir
+bad,mauvais
 friend,ami
 during,pendant
 begin,commencer
@@ -209,20 +235,27 @@ each,chaque
 hold,prise
 different,différent
 american,Américain
+little,petit
 before,avant
 ever,jamais
 word,mot
+fact,fait
 right,droite
 read,lire
 anything,quoi que ce soit
+nothing,rien
 sure,bien sûr
+small,petit
 month,mois
+program,programme
 maybe,peut être
 right,droite
 under,sous
+business,entreprise
 home,maison
 kind,type
 stop,arrêt
+pay,payer
 study,étude
 since,depuis
 issue,problème
@@ -238,17 +271,22 @@ large,grand
 though,mais
 provide,fournir
 lose,perdre
+power,pouvoir
 kid,enfant
+war,guerre
 understand,comprendre
 head,diriger
 mother,mère
 real,réel
 best,meilleur
 team,équipe
+eye,œil
+long,long
 long,long
 side,côté
 water,eau
 young,jeune
+wait,attendez
 okay,d'accord
 both,les deux
 yet,encore
@@ -268,6 +306,8 @@ however,cependant
 only,seul
 around,autour
 hour,heure
+everything,tout
+national,national
 four,quatre
 line,doubler
 girl,fille
@@ -275,7 +315,9 @@ around,autour
 watch,montre
 until,jusqu'à
 father,père
+sit,s'asseoir
 create,créer
+information,information
 car,voiture
 learn,apprendre
 least,moins
@@ -288,12 +330,14 @@ stand,rester
 together,ensemble
 back,dos
 follow,suivre
+health,santé
 remember,se souvenir
 often,souvent
 reason,raison
 speak,parler
 ago,il y a
 set,ensemble
+black,noir
 member,membre
 community,communauté
 once,une fois
@@ -332,6 +376,8 @@ buy,acheter
 result,résultat
 morning,matin
 off,désactivé
+parent,parent
+office,bureau
 course,cours
 send,envoyer
 research,recherche
@@ -341,6 +387,9 @@ white,blanc
 several,plusieurs
 court,rechercher
 home,maison
+grow,grandir
+better,mieux
+open,ouvrir
 moment,moment
 including,y compris
 consider,considérer
@@ -369,7 +418,9 @@ data,données
 offer,offre
 death,décès
 whole,ensemble
+experience,expérience
 plan,plan
+easy,facile
 education,éducation
 build,construire
 expect,attendre
@@ -383,6 +434,7 @@ show,montrer
 early,tôt
 college,collège
 music,musique
+appear,apparaître
 mind,esprit
 class,classe
 police,police
@@ -391,13 +443,16 @@ effect,effet
 season,saison
 tax,impôt
 heart,cœur
+son,fils
 art,art
 possible,possible
 serve,servir
 break,casser
 although,bien que
 end,fin
+market,marché
 even,même
+air,air
 force,force
 require,exiger
 foot,pied
@@ -407,29 +462,37 @@ agree,accepter
 according,selon
 anyone,n'importe qui
 baby,bébé
+wrong,faux
 love,aimer
 cut,couper
 decide,décider
 republican,républicain
 full,complet
 behind,derrière
+pass,passer
+interest,intérêt
 sometimes,parfois
 security,sécurité
 eat,manger
 report,rapport
-control,contrôle
 rate,taux
 local,local
 suggest,suggérer
 report,rapport
+nation,nation
 sell,vendre
 action,action
+support,soutien
 wife,épouse
 decision,décision
+receive,recevoir
 value,valeur
 base,base
+pick,prendre
+phone,téléphone
 thanks,merci
 event,événement
+drive,conduire
 strong,fort
 reach,atteindre
 remain,rester
