@@ -3,8 +3,6 @@ from tkinter import *
 import pandas as pd
 import random
 
-import pandas.errors
-
 # Global Variables
 CARD_FRONT_WIDTH = 800
 CARD_FRONT_HEIGHT = 526
@@ -22,7 +20,7 @@ try:
 except FileNotFoundError:
     print("CSV not found")
     DATA_FRAME = pd.read_csv("./Dico/Frequency.csv")
-except pandas.errors.EmptyDataError:
+except pd.errors.EmptyDataError:
     DATA_FRAME = pd.read_csv("./Dico/Frequency.csv")
 finally:
     TO_LEARN = DATA_FRAME.to_dict(orient="records")
@@ -60,9 +58,7 @@ def wrongButton():
 
 # ---------------------------- TIMER ------------------------------- #
 def timerSwitch():
-    global TIMER, WORD_DICO, TO_LEARN
-    if TIMER is not None:
-        window.after_cancel(TIMER)
+    global WORD_DICO, TO_LEARN
     try:
         WORD_DICO = random.choice(TO_LEARN)
     except IndexError:
