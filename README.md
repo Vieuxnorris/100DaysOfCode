@@ -67,3 +67,5 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 31 - Flash card <-- [Capstone]
 
 <h3 align="center">✨ Intermediate+ ✨</h3>
+
+- [x] Day 32 - Birthday manager
