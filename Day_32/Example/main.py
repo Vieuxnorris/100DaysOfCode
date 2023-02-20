@@ -7,7 +7,7 @@ import smtplib
 #     gmail.starttls()
 #     gmail.login(user=MY_EMAIL, password=MY_PASSWORD)
 #     gmail.sendmail(from_addr=MY_EMAIL,
-#                    to_addrs="vieuxnorris@gmail.com",
+#                    to_addrs="mail",
 #                    msg="Subject:Hello\n\nThis is the body of my email")
 
 import datetime as dt
