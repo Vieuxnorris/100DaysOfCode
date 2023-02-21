@@ -69,3 +69,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 <h3 align="center">✨ Intermediate+ ✨</h3>
 
 - [x] Day 32 - Birthday manager
+- [x] Day 33 - ISS scan
