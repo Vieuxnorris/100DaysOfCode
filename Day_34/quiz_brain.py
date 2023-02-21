@@ -1,5 +1,4 @@
 import html
-from data import Data
 
 
 class QuizBrain:
@@ -7,7 +6,6 @@ class QuizBrain:
     def __init__(self, q_list):
         self.question_number = 0
         self.score = 0
-        self.questions = Data()
         self.question_list = q_list
         self.current_question = None
 
