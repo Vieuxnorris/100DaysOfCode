@@ -72,3 +72,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 33 - ISS scan
 - [x] Day 34 - GUI quiz
 - [x] Day 35 - Rain alert SMS
+- [x] Day 36 - Stock trading news alert
