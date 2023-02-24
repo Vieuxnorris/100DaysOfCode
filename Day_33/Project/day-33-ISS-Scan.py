@@ -3,11 +3,11 @@ import datetime as dt
 import smtplib
 import time
 
-MY_EMAIL = "mail"
-MY_PASSWORD = "key api"
+MY_EMAIL = "smtptest7546pze@gmail.com"
+MY_PASSWORD = "zupreklckxmnhosm"
 
-MY_LAT = 1
-MY_LNG = 1
+MY_LAT = 50.4856
+MY_LNG = 4.1894
 TIME_NOW = dt.datetime.now()
 
 parametersSunrise = {
@@ -35,7 +35,7 @@ def sendMail():
                 gmail.starttls()
                 gmail.login(user=MY_EMAIL, password=MY_PASSWORD)
                 gmail.sendmail(from_addr=MY_EMAIL,
-                               to_addrs="mail",
+                               to_addrs="vieunorris@gmail.com",
                                msg=f"Subject:ISS look the sky bro!\n\nThe ISS is above you in the sky.")
 
 

@@ -38,9 +38,9 @@ def requestNewsPaper(arg_stockPriceRound: int):
         headLine = html.unescape(newsPapers['articles'][0]["title"])
         brief = html.unescape(newsPapers['articles'][0]["description"])
         if arg_stockPriceRound < 0:
-            titleMessage = f"{STOCK}: 🔻{abs(abs(arg_stockPriceRound))}"
+            titleMessage = f"{STOCK}: 🔻{abs(arg_stockPriceRound)}"
         else:
-            titleMessage = f"{STOCK}: 🔺{str(abs(arg_stockPriceRound))}"
+            titleMessage = f"{STOCK}: 🔺{abs(arg_stockPriceRound)}"
         sendSMS(headLine, brief, titleMessage)
 
 
