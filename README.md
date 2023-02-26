@@ -75,4 +75,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 36 - Stock trading news alert
 - [x] Day 37 - Habit tracking API requestes headers
 - [x] Day 38 - Exercice Tracker
-- [x] Day 39 - Flight alert lower prices
+- [x] Day 39 - Flight alert lower prices <-- [part 1]
