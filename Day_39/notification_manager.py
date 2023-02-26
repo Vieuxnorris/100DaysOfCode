@@ -14,6 +14,6 @@ class NotificationManager:
                 body=f"Low price alert! Only €{flightInfos.price} to fly from {flightInfos.origin_city}"
                      f"to {flightInfos.destination_city}, from {flightInfos.out_date} to {flightInfos.return_date}.",
                 from_="+12706336456",
-                to="+32474361140"
+                to=Your Phone Number
             )
             print(message.sid)
