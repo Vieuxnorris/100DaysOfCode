@@ -76,3 +76,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 37 - Habit tracking API requestes headers
 - [x] Day 38 - Exercice Tracker
 - [x] Day 39 - Flight alert lower prices <-- [part 1]
+- [x] Day 40 - Flight alert lower prices <-- [Final part]
