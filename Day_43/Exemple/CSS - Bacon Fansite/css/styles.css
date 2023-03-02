@@ -1,0 +1,32 @@
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+/* TAG SELECTOR */
+img:hover {
+  background-color: gold;
+}
+
+
+/* CLASS SELECTORS !!!! MULTIPLE WITH SAME NAME !!!!*/
+.baconApple {
+  background-color: red;
+}
+
+.baconMicrosoft {
+  background-color: green;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/* ID SELECTORS !!!! UNIQUE NAME !!!!*/
+#heading {
+  color: blue;
+}
+
+#big {
+  font-size: 1000px;
+}
