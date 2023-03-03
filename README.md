@@ -80,3 +80,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 41 - Web foundation - Introduction HTML
 - [x] Day 42 - Web foundation - Intermediate HTML
 - [x] Day 43 - Web foundation - Introduction CSS
+- [x] Day 44 - Web foundation - Intermediate CSS
