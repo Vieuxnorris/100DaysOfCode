@@ -26,7 +26,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-a:link {
+a {
   color: #71C9CE;
   margin-left: auto 100px auto 100px;
   text-decoration: none;
@@ -43,6 +43,36 @@ hr {
   width: 5%;
   margin: 100px auto 100px auto;
 }
+
+/* ONGLETS */
+.ongletsBody {
+  background-color: #EAF6F6;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.row {
+  position: relative;
+  text-align: right;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.myProfilOnglet {
+  position: absolute;
+  bottom: 5px;
+  left: 80px;
+  border-radius: 50%;
+  width: 5%;
+}
+
+.linkOnglet {
+  padding-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+
 
 /* DIVHEAD */
 
