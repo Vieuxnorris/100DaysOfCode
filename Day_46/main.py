@@ -1,6 +1,5 @@
 import os
-from pprint import pprint
-
+import re
 import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
@@ -24,14 +23,17 @@ except requests.exceptions.HTTPError:
 else:
     soup = BeautifulSoup(htmlScraping, "html.parser")
     title = [str(tag.getText().strip()) for tag in soup.select(selector=".a-truncate-ellipsis")]
-
+    author = [str(tag.getText().strip()) for tag in
+              soup.select(selector=".a-truncate-ellipsis-2line")]
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=SPOTIFY_CLIENT_ID,
                                                    client_secret=SPOTIFY_CLIENT_SECRET,
                                                    redirect_uri="http://example.com",
                                                    scope="playlist-modify-private",
                                                    cache_path="token.txt"))
-    for nameTitle in title:
-        results = sp.search(q=f"track:{nameTitle} year:{userInput.split('-')[0]}")
+    for index in range(0, len(title) - 1):
+        author[index] = re.sub(r'\b(Featuring|With|&)\b', ',', author[index]).replace(" ,", ",")
+        print(author[index])
+        results = sp.search(q=f"track:{title[index]} artist:{author[index]} year:{userInput.split('-')[0]}")
         try:
             uri = results['tracks']["items"][0]['uri']
             print(f'track    : {uri}')
@@ -40,6 +42,6 @@ else:
         else:
             songs.append(uri)
 
-    playlist = sp.user_playlist_create(sp.current_user()['id'], f"{userInput} Billboard 100", public=False)
+    playlist = sp.user_playlist_create(sp.current_user()['id'], f"{userInput} Billboard {len(songs)}", public=False)
     sp.playlist_add_items(playlist_id=playlist["id"], items=songs)
 
