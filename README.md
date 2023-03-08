@@ -84,3 +84,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 45 - Web Scraping - 100 Movies that you must watch
 - [x] Day 46 - Create a Spotify Playlist using the Musical Time Machine
 - [x] Day 47 - Create an Automated Amazon Price Tracker
+- [x] Day 48 - Selenium Bot Cookie Clicker
