@@ -34,11 +34,11 @@ def facebookLogin():
     time.sleep(5)
     fbEmail = driver.find_element(by=By.NAME, value="email")
     fbEmail.click()
-    fbEmail.send_keys("vieuxnorris@gmail.com")
+    fbEmail.send_keys(os.getenv("EMAIL"))
 
     fbPassword = driver.find_element(by=By.NAME, value="pass")
     fbPassword.click()
-    fbPassword.send_keys("ZiAzEgFnjToozRV3OFpR")
+    fbPassword.send_keys(os.getenv("PASSWORD"))
 
     fbLoginButton = driver.find_element(by=By.NAME, value="login")
     fbLoginButton.click()
