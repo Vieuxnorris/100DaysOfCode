@@ -87,3 +87,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 48 - Selenium Bot Cookie Clicker
 - [x] Day 49 - Selenium Automating job applications on LinkedIn
 - [x] Day 50 - Selenium Automating Tinder Swiping Bot
+- [x] Day 50 - Selenium Internet speed twitter complaint bot
