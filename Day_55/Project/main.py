@@ -6,7 +6,7 @@ RANDOM_NUMBER = random.randint(0, 9)
 
 app = Flask(__name__)
 
-
+# example of using an advance decorator (not optimal in our case, but good to show how this works)
 # def colorDeco(function):
 #     def wrapper(**kwargs):
 #         if kwargs["number"] > RANDOM_NUMBER:
