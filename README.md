@@ -91,3 +91,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 52 - Selenium Instagram follower bot
 - [x] Day 53 - Web Scraping Data Entry job automation <-- [Capstone]
 - [x] Day 54 - Introduction to web development with Flask
+- [x] Day 55 - HTML & URL Parsing in Flask and the Higher Lower Game
