@@ -4,9 +4,16 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
-  <link rel="stylesheet" href="css/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Noto+Sans+Lepcha&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
@@ -14,38 +21,42 @@
 
   <section id="title">
 
-    <!-- Nav Bar -->
+    <div class="container-fluid">
+      <!-- Nav Bar -->
 
-    <nav class="navbar navbar-expand-md bg-danger">
-      <a class="navbar-brand text-white" href="#">Tindog</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Download</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand text-white fs-1" href="#">Tindog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item p-3">
+              <a class="nav-link text-white-50 fs-3" href="#">Contact</a>
+            </li>
+            <li class="nav-item p-3">
+              <a class="nav-link text-white-50 fs-3" href="#">Pricing</a>
+            </li>
+            <li class="nav-item p-3">
+              <a class="nav-link text-white-50 fs-3" href="#">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6 mt-auto mb-auto">
+          <h1 class="mb-5">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="donwload-button btn btn-dark btn-lg"><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="donwload-button btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/iphone6.png" alt="iphone-mockup" class="title-image">
+        </div>
       </div>
-    </nav>
 
-
-    <!-- Title -->
-
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-    </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
     </div>
 
   </section>
