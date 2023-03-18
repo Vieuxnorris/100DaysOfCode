@@ -94,3 +94,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 55 - HTML & URL Parsing in Flask and the Higher Lower Game
 - [x] Day 56 - Rendering HTML/Static files and Using Website Templates
 - [x] Day 57 - Templating with Jinja in Flask Applications
+- [x] Day 58-60 - Web Foundation Bootstrap
