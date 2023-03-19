@@ -11,10 +11,24 @@
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Noto Sans Lepcha', sans-serif;
   font-size: 5rem;
   line-height: 1.5;
   font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  color: #8f8f8f;
+  line-height: 1.5;
 }
 
 .donwload-button {
@@ -39,4 +53,35 @@ h1 {
   position: relative;
   top: 200px;
   left: 100px;
+}
+
+.icone {
+  font-size: 5em;
+  color: #EF8172;
+  margin-bottom: 20px;
+}
+
+.icone:hover {
+  color: #ff4c66;
+}
+
+.feature-container {
+  padding: 7% 15%;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
 }
