@@ -5,8 +5,7 @@
 }
 
 .container-fluid {
-  padding: 3% 15%;
-  overflow: hidden;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -48,11 +47,15 @@ p {
 }
 
 .title-image {
-  width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+#features {
+  background-color: #fff;
   position: relative;
-  top: 200px;
-  left: 100px;
+  z-index: 1;
 }
 
 .icone {
@@ -66,7 +69,7 @@ p {
 }
 
 .feature-container {
-  padding: 7% 15%;
+  padding: 10% 15%;
 }
 
 #testimonials {
@@ -82,6 +85,37 @@ p {
   margin: 20px;
 }
 
+.carousel-item {
+  padding: 7% 15%
+}
+
 #press {
   background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding-top: 20px;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+.pricing-container {
+  padding-top: 5%;
 }
