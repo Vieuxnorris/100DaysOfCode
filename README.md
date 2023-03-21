@@ -95,3 +95,6 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 56 - Rendering HTML/Static files and Using Website Templates
 - [x] Day 57 - Templating with Jinja in Flask Applications
 - [x] Day 58-60 - Web Foundation Bootstrap
+
+<h3 align="center">✨ Advanced ✨</h3>
+
