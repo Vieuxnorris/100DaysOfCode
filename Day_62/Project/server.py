@@ -44,7 +44,7 @@ def contact():
                            to_addrs=os.getenv("MY_EMAIL"),
                            msg=f"Subject:New Message!\n\nName: {name}\nEmail: {email}\nPhone Number: {tel}\n"
                                f"Message: {message}\n")
-        return render_template("contact.html", messageTemplate=True)
+        return render_template("contact.html", msg_sent=True)
 
 
 @app.route('/post/<int:idBlog>')
