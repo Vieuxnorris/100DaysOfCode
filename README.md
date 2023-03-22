@@ -98,3 +98,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 
 <h3 align="center">✨ Advanced ✨</h3>
 
+- [x] Day 61 - Blog Capstone Project
