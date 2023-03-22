@@ -41,7 +41,7 @@ def contact():
             gmail.starttls()
             gmail.login(user=os.getenv("MY_EMAIL"), password=os.getenv("MY_PASSWORD"))
             gmail.sendmail(from_addr=os.getenv("MY_EMAIL"),
-                           to_addrs=email,
+                           to_addrs=os.getenv("MY_EMAIL"),
                            msg=f"Subject:New Message!\n\nName: {name}\nEmail: {email}\nPhone Number: {tel}\n"
                                f"Message: {message}\n")
         return f"<h1>Successfully sent message</h1>"
