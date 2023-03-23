@@ -22,12 +22,6 @@ def index():
 def about():
     return render_template("about.html")
 
-
-@app.route('/form-entry', methods=['POST'])
-def receive_data():
-    pass
-
-
 @app.route('/contact.html', methods=['GET', 'POST'])
 def contact():
     if request.method == "GET":
