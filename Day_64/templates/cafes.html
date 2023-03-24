@@ -1,0 +1,58 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}Restaurants{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+
+      <h1>All Cafes</h1>
+	  <table class="table">
+          <tr>
+              <th>Cafe Name</th>
+              <th>Location</th>
+              <th>Open</th>
+              <th>Close</th>
+              <th>Coffee</th>
+              <th>Wifi</th>
+              <th>Power</th>
+          </tr>
+          {% for value in coffee %}
+          <tr>
+              <th class="col-sm-2">
+                  <p>{{ value['Cafe Name'] }}</p>
+              </th>
+              <th class="col-sm-2">
+                  <p><a href="{{ value['Location'] }}">Maps Link</a></p>
+              </th>
+              <th class="col-sm-2">
+                  <p>{{ value['Open'] }}</p>
+              </th>
+              <th class="col-sm-2">
+                  <p>{{ value['Close'] }}</p>
+              </th>
+              <th class="col-sm-2">
+                  <p>{{ value['Coffee'] }}</p>
+              </th>
+              <th class="col-sm-1">
+                  <p>{{ value['Wifi'] }}</p>
+              </th>
+              <th class="col-sm-1">
+                  <p>{{ value['Power'] }}</p>
+              </th>
+          </tr>
+          <!-- This is where you will write the code to render a Bootstrap 
+          Table that contains all the information from the 
+          cafe-data.csv file. -->
+          {% endfor %}
+  	  </table>
+
+      <p><a href="{{ url_for('home') }}">Return to index page</a></p>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}

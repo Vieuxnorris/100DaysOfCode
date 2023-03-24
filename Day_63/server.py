@@ -22,7 +22,7 @@ def home():
     return render_template("index.html")
 
 
-@app.route('/login', methods=['GET','POST'])
+@app.route('/login', methods=['GET', 'POST'])
 def login():
     form = loginForm()
     if form.validate_on_submit():
