@@ -1,0 +1,15 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %}edit Book{% endblock %}
+{% block content %}
+    <form action="{{ url_for('edit', id=infoBook['id']) }}" method="POST">
+        {{ form.csrf_token }}
+        {% if form.csrf_token.errors %}
+        <div class="warning">You have submitted an invalid CSRF token</div>
+        {% else %}
+        <p>Book Name: {{ infoBook['title'] }}</p>
+        <p>Current Rating: {{ infoBook['rating'] }}</p>
+        {{ wtf.quick_form(form) }}
+        {% endif %}
+    </form>
+{% endblock %}
