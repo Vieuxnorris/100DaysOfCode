@@ -40,7 +40,6 @@ class editForm(FlaskForm):
 @app.route('/')
 def home():
     all_books = bookDB.query.all()
-    print(all_books)
     return render_template('index.html', books=all_books, lenBooks=len(all_books))
 
 
