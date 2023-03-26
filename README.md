@@ -103,3 +103,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 63 - Building advanced forms with Flask-WTForms
 - [x] Day 64 - Flask, WTForms, Bootstrap and CSV - Coffee & Wifi Project
 - [x] Day 65 - Databases and with SQLite and SQLAlchemy
+- [x] Day 66 - My top 10 Movies website
