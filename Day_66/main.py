@@ -69,21 +69,22 @@ def select(idMovie):
     with requests.get(url=f"{URL}/movie/{idMovie}", params=param) as infoMovie:
         infoMovie.raise_for_status()
         jsonMovie = infoMovie.json()
-        # try:
-        new_movie = dbMovie(
-            title=jsonMovie["original_title"],
-            year=int(jsonMovie["release_date"].split("-")[0]),
-            rating=0.0,
-            ranking=0,
-            description=jsonMovie["overview"],
-            review="None",
-            img_url=f"https://image.tmdb.org/t/p/w500{jsonMovie['poster_path']}"
-        )
-        db.session.add(new_movie)
-        db.session.commit()
-        # except sqlalchemy.exc.IntegrityError:
-        #     print("ERROR movie already exist")
-        # finally:
+        try:
+            new_movie = dbMovie(
+                title=jsonMovie["original_title"],
+                year=int(jsonMovie["release_date"].split("-")[0]),
+                rating=0.0,
+                ranking=0,
+                description=jsonMovie["overview"],
+                review="None",
+                img_url=f"https://image.tmdb.org/t/p/w500{jsonMovie['poster_path']}"
+            )
+            db.session.add(new_movie)
+            db.session.commit()
+        except sqlalchemy.exc.IntegrityError:
+            print("ERROR movie already exist")
+        else:
+            return redirect(url_for('home'))
         return redirect(url_for('add'))
 
 
@@ -104,10 +105,17 @@ def add():
 
 @app.route("/")
 def home():
-    movies = dbMovie.query.order_by(dbMovie.rating).all()
-    for i in range(len(movies)):
-        movies[i].ranking = len(movies) - i
-    db.session.commit()
+    try:
+        movies = dbMovie.query.order_by(dbMovie.rating).all()
+        for i in range(len(movies)):
+            movies[i].ranking = len(movies) - i
+        db.session.commit()
+    except sqlalchemy.exc.OperationalError:
+        print("DB not create")
+    else:
+        return render_template("index.html", movies=movies)
+    db.create_all()
+    movies = dbMovie.query.all()
     return render_template("index.html", movies=movies)
 
 
