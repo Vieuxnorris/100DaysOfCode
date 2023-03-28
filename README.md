@@ -105,3 +105,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 65 - Databases and with SQLite and SQLAlchemy
 - [x] Day 66 - My top 10 Movies website
 - [x] Day 67 - Building API with RESTful Routing
+- [x] Day 68 - Blog Capstone Project [PART 3] RESTful Routing
