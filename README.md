@@ -107,3 +107,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 67 - Building API with RESTful Routing
 - [x] Day 68 - Blog Capstone Project [PART 3] RESTful Routing
 - [x] Day 69 - Authentication with Flask
+- [x] Day 70 - Blog Capstone Project [PART 4] Adding Users
