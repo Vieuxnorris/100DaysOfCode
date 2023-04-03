@@ -111,3 +111,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 71 - Deploying your web application with heroku
 - [x] Day 72 - Data exploration with pandas: College Major v.s. Your Salary
 - [x] Day 73 - Data Visualisation with Matplotlib
+- [x] Day 74 - Aggregate & Merge Data with Pandas: Analyse the LEGO Dataset
