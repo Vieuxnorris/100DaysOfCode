@@ -110,3 +110,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 70 - Blog Capstone Project [PART 4] Adding Users
 - [x] Day 71 - Deploying your web application with heroku
 - [x] Day 72 - Data exploration with pandas: College Major v.s. Your Salary
+- [x] Day 73 - Data Visualisation with Matplotlib
