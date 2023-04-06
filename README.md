@@ -113,3 +113,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 73 - Data Visualisation with Matplotlib
 - [x] Day 74 - Aggregate & Merge Data with Pandas: Analyse the LEGO Dataset
 - [x] Day 75 - Google trends Data: Resampling and Visualising Time Series
+- [x] Day 76 - Beautiful Plotly Charts & Analysing the Android App Store
