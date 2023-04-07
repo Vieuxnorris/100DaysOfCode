@@ -115,3 +115,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 75 - Google trends Data: Resampling and Visualising Time Series
 - [x] Day 76 - Beautiful Plotly Charts & Analysing the Android App Store
 - [x] Day 77 - Computation with NumPy and N-Dimensional Arrays
+- [x] Day 78 - Linear Regression and Data Visualisation with Seaborn
