@@ -118,3 +118,6 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 78 - Linear Regression and Data Visualisation with Seaborn
 - [x] Day 79-80 - Analysing the Nobel Prize with Plotly, Matplotlib & Seaborn
 - [x] Day 81 - The Tragic Discovery of Handwashing: t-Tests & Distributions
+- [ ] Day 82 - Predict House Prices <-- [CapStone]
+
+<h3 align="center">✨ Professional ✨</h3>
