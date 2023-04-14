@@ -121,3 +121,5 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [x] Day 82 - Predict House Prices <-- [CapStone]
 
 <h3 align="center">✨ Professional ✨</h3>
+
+- [x] Day 83 - Text to Morse Code Converter
