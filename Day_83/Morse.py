@@ -12,7 +12,6 @@ if __name__ == '__main__':
     phrase = input("Enter your message in Morse:")
     try:
         output = [morseData.get(letter.upper()) for letter in phrase if letter.isalnum()]
-        print(output)
         print(f"{' '.join(output)}")
     except TypeError:
         print('Error Code Morse')
