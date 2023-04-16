@@ -123,3 +123,4 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 <h3 align="center">✨ Professional ✨</h3>
 
 - [x] Day 83 - Text to Morse Code Converter
+- [ ] Day 84 - Portfolio Project
